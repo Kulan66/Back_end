@@ -14,7 +14,7 @@ const app = express();
 app.use(clerkMiddleware());
 // Middleware to parse JSON data in the request body
 app.use(express.json());
-app.use(cors({ origin: "https://Kulan.netlify.app" }));
+app.use(cors({ origin: "https://kulanthamuditha.netlify.app" }));
 
 // app.use((req, res, next) => {
 //   console.log("Hello World");
