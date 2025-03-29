@@ -5,7 +5,6 @@ import { CreateBookingDTO } from "../domain/dtos/booking";
 import ValidationError from "../domain/errors/validation-error";
 import { clerkClient } from "@clerk/express";
 
-
 export const createBooking = async (
   req: Request,
   res: Response,

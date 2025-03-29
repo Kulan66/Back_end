@@ -4,7 +4,6 @@ import { Document } from "@langchain/core/documents";
 import { MongoDBAtlasVectorSearch } from "@langchain/mongodb";
 import mongoose from "mongoose";
 import Hotel from "../infrastructure/schemas/Hotel";
-
 export const createEmbeddings = async (
   req: Request,
   res: Response,
